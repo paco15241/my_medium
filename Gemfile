@@ -42,6 +42,12 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 # Use aasm for status machine
 gem 'aasm', '~> 5.0', '>= 5.0.6'
 
+# Use friendly_id for slug
+gem 'friendly_id', '~> 5.3'
+
+# Use babosa for slug encoding
+gem 'babosa', '~> 1.0', '>= 1.0.3'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
