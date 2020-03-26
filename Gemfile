@@ -51,6 +51,9 @@ gem 'babosa', '~> 1.0', '>= 1.0.3'
 # Use webpacker for asset compiler
 gem 'webpacker', '~> 4.0', '>= 4.0.7'
 
+# Use paranoia for soft delete
+gem 'paranoia', '~> 2.4', '>= 2.4.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
