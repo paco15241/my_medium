@@ -54,6 +54,12 @@ gem 'webpacker', '~> 4.0', '>= 4.0.7'
 # Use paranoia for soft delete
 gem 'paranoia', '~> 2.4', '>= 2.4.2'
 
+# Use figaro for Rails app configuration
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+
+# Use braintree
+gem "braintree", "~> 2.100.0"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
