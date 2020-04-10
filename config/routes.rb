@@ -22,8 +22,9 @@ Rails.application.routes.draw do
 
   resources :users, only: [] do
     collection do
-      get :pricing    # users/pricing
-      get :payment    # users/payment
+      get :pricing    # /users/pricing
+      get :payment    # /users/payment
+      post :pay       # /users/pay
     end
   end
 
